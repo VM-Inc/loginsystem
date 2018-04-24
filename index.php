@@ -59,12 +59,6 @@ body {
         <h1> Welcome '.$_SESSION['u_first'].' </h1>
         <p align="center"> Let s start by startup manual. </p>
       </div>
-      <div class="col-sm-6" style="background-color:#eee; height:50%;">
-        <p align="center"> Play the games here for free </p>
-      </div>
-      <div class="col-sm-6" style="background-color:#333; color:#ccc; height:50%;">
-        <p align="center"> Play the games here for free </p>
-      </div>
     </div>
     ';
      } else {
