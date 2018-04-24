@@ -44,7 +44,7 @@ body {
   <hr>
   <br>
   <p>
-    Our company is working around for 2 years and have found that the costs of website making are more on internet small business are not able to afford it. So we make powerful website with ery less amount of money. We might be back in anything then please tell us using the feedback form and remember to mention your email address in the message. Your feedback will always help us all for our development and a good future. <br>
+    Our company is working around for 2 years and have found that the costs of website making are more on internet small business are not able to afford it. So we make powerful website with ery less amount of money. We might be back in anything then please tell us using the feedback form and remember to mention your email address in the message. Your feedback will always help us all for our development and a good future. Thank you to send your time to read it.<br>
 
   </p>
 </div>
