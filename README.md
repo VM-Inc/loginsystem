@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # loginsystem 
 
 This is a complete version of loginysytem with best html and free and open source. Any one can use it **without any license required**.To use this simply download all the files.
@@ -19,3 +20,7 @@ If you have any problem then make a issue or contact me. With my email address i
 # Thanks
 
 I thanks every one who visited the site and let us make help for you. And using our web php project.
+=======
+# loginsystem
+Open source loginsystem
+>>>>>>> 26de6a4b6217a20eed3df8fc24265ec48d83e2e0
