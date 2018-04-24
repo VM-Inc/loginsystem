@@ -57,7 +57,7 @@ body {
     <div class="container">
       <div class="jumbotron" align="center">
         <h1> Welcome '.$_SESSION['u_first'].' </h1>
-        <p align="center"> Let s start by startup manual. </p>
+        <p align="center"> Let s start . </p>
       </div>
     </div>
     ';
