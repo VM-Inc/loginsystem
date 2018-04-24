@@ -14,6 +14,7 @@ if (isset($_POST['submit'])) {
 
   if (empty($oldpwd) || empty($newpwd) || empty($repwd) ) {
 	header("Location: ../password.php?password=empty");
+  $_SESSION['passerror'] = "empty";
 	die("File not found");
 	exit();
 	}
@@ -33,16 +34,11 @@ if (isset($_POST['submit'])) {
       if ($HashedPwdCheck == true) {
         $sql = "UPDATE users SET user_pwd = '$hashedPwd' WHERE user_uid = '$uid';";
         mysqli_query($conn, $sql);
-        $_SESSION['error'] = "veeeeee" ;
       } elseif ($HashedPwdCheck == false) {
-            $_SESSION['error'] = "hashedpwd" ;
+              $_SESSION['passerror'] = "wrongold";
       }
 
     }
   }
 }
  ?>
-
- <?php
-echo $_SESSION['error'] ;
-  ?>
