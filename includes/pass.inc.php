@@ -6,7 +6,7 @@ include_once 'dbh.inc.php';
 session_start();
 
 $uid = $_SESSION['u_uid'] ;
-echo $uid;
+
 if (isset($_POST['submit'])) {
 	$oldpwd = mysqli_real_escape_string($conn, $_POST['old-pwd']);
   $newpwd = mysqli_real_escape_string($conn, $_POST['new-pwd']);
@@ -19,6 +19,7 @@ if (isset($_POST['submit'])) {
 	exit();
 	}
 
+if ($newpwd === $repwd) {
   $hashedPwd = password_hash($newpwd, PASSWORD_DEFAULT);
 
   $sql = "SELECT * FROM users WHERE user_uid='$uid'";
@@ -34,11 +35,21 @@ if (isset($_POST['submit'])) {
       if ($HashedPwdCheck == true) {
         $sql = "UPDATE users SET user_pwd = '$hashedPwd' WHERE user_uid = '$uid';";
         mysqli_query($conn, $sql);
+        $_SESSION['passerror'] = "done";
+        header("Location: ../password.php?password=done");
       } elseif ($HashedPwdCheck == false) {
               $_SESSION['passerror'] = "wrongold";
       }
+}
 
     }
+  } else {
+    $_SESSION['passerror'] = "notverify" ;
+    header("Location: ../password.php?password=noverify");
   }
 }
  ?>
+
+ <?php
+echo $_SESSION['passerror'] ;
+  ?>
