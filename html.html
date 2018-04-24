@@ -1,14 +1,11 @@
 <html>
 <head><title>Mail sender</title></head>
 <body>
-<form action="mail.php" method="POST">
-<b>Email</b><br>
-<input type="text" name="email" size=40>
-<p><b>Subject</b><br>
-<input type="text" name="subject" size=40>
-<p><b>Message</b><br>
-<textarea cols=40 rows=10 name="message"></textarea>
-<p><input type="submit" value=" Send ">
+<form action="pass.inc.php" method="POST">
+Old-Password:<input type="password" name="old-pwd" placeholder="Old-Password"><br><br>
+New-Password:<input type="password" name="new-pwd" placeholder="New-Password"><br><br>
+Retype-Password:<input type="password" name="re-pwd" placeholder="Retype-Password"><br><br>
+<button type="submit" name="submit">Submit</button><br><br>
 </form>
 </body>
 </html>

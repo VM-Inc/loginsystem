@@ -86,6 +86,7 @@ body {
 				<form action="includes/logout.inc.php" method="POST" >
 				<span class="glyphicon glyphicon-log-out" style="background-color:#333; color:white;"></span>
 				<button type="submit" name="submit" class="btn navbar-btn" style="background-color:#333; color:white;">Log Out</button></a>
+        </form>
 				</ul>
 				</div>
 

@@ -59,6 +59,11 @@ body {
         <h1> Welcome '.$_SESSION['u_first'].' </h1>
         <p align="center"> Let s start . </p>
       </div>
+      <div>
+        <a href="password.php" >
+          Change Password
+        </a>
+      </div>
     </div>
     ';
      } else {
