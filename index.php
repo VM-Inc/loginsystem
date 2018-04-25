@@ -67,6 +67,21 @@ body {
         </a>
       </div>
     </div>
+    <br>
+    <div class="col-sm-12" align="center">
+      <div class="col-sm-2">
+      &nbsp;
+      </div>
+      <div class="col-sm-8">
+        <a href="coversation.php">
+          <button type="button" name="st-conver" style="background-color:#ccc; border:none;">
+            Start Coversetion.
+          </button>
+        </a>
+      </div>
+      <div class="col-sm-2">
+      &nbsp;
+      </div>
     ';
      } else {
       echo '
