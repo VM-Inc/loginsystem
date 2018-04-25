@@ -13,7 +13,7 @@ body {
 }
 
 </style>
-<div class="jumbotron" style="background-color:#fff; opacity:0.7;" align="center">
+<div class="jumbotron" style="background-color:#fff; opacity:0.7ff;" align="center">
   <p>
     Future
   </p>

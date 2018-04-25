@@ -59,9 +59,11 @@ body {
         <h1> Welcome '.$_SESSION['u_first'].' </h1>
         <p align="center"> Let s start . </p>
       </div>
-      <div>
+      <div class="col-sm-12" align="center">
         <a href="password.php" >
-          Change Password
+          <button type="button" name="button" style="background-color:#b2dbf4; border:none;" >
+            Change Password
+          </button>
         </a>
       </div>
     </div>

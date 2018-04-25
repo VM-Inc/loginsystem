@@ -1,7 +1,24 @@
 <?php
 include_once 'header.php';
  ?>
+ <style type="text/css">
+ body {
+   background-image: url("background3.jpg") ;
+   position: relative;
+   opacity: 5;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align:center;
+ }
 
+button {
+  background-color: #e5f5ff ;
+  border:none;
+  opacity: 0.9;
+}
+ </style>
 <?php
 if (isset($_SESSION['u_id'])) {
   if (isset($_SESSION['passerror'])) {
